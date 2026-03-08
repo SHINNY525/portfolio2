@@ -262,6 +262,7 @@ textarea{
 .projects-title{
     font-size: 36px;
     text-shadow: #B0B0B0 1px 0 10px;
+    margin-top: 0px;
     margin-bottom: 30px;
 }
 
@@ -305,6 +306,17 @@ textarea{
 .project-card:hover{
     transform: translateY(-6px);
     box-shadow: 0px 6px 18px rgba(0,0,0,0.5);
+}
+
+.view-projects{
+    display:inline-block;
+    margin-top:20px;
+    font-size:18px;
+    color:white;
+}
+
+.view-projects:hover{
+    color:#B0B0B0;
 }
 
 @media screen and (max-width: 768px) {
