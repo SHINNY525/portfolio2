@@ -340,7 +340,7 @@ textarea{
 .project-section{
     max-width:1100px;
     margin:0 auto;
-    padding:10px 30px 10px 30px;
+    padding:5px 30px 5px 30px;
     background:#252525;
     display:flex;
     gap:3em;
@@ -381,7 +381,7 @@ textarea{
 .project-responsibilities{
     max-width:1100px;
     margin:0 auto;
-    padding:10px 30px 30px 30px;
+    padding:5px 30px 5px 30px;
     background:#252525;
 }
 
