@@ -395,6 +395,42 @@ textarea{
     margin-bottom:8px;
 }
 
+/* ===== Compact Project Section (for short text + gif) ===== */
+
+.project-section-compact{
+    max-width:1100px;
+    margin:0 auto;
+    padding:10px 30px;
+    background:#252525;
+
+    display:flex;
+    align-items:center;
+    gap:2em;
+}
+
+/* smaller gif container */
+.project-media-small{
+    flex:0 0 380px;
+}
+
+.project-media-small img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* text area */
+.project-text-small{
+    flex:1;
+}
+
+.project-text-small h4{
+    margin-bottom:8px;
+}
+
+.project-text-small p{
+    line-height:1.5;
+}
+
 @media screen and (max-width: 768px) {
     .navigation li {
         display: flex;
@@ -465,6 +501,8 @@ textarea{
         padding: 0 30px 30px 30px;
     }
 
+    /* ===== Project Section (Text With image) ===== */
+
     .project-section{
         flex-direction: column;
         align-items: center;
@@ -472,6 +510,19 @@ textarea{
     }
 
     .project-media{
+        width:100%;
+        margin-top:20px;
+    }
+
+    /* ===== Compact Project Section (for short text + gif) ===== */
+
+    .project-section-compact{
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    }
+
+    .project-media-small{
         width:100%;
         margin-top:20px;
     }
