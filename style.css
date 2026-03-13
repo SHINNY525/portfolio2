@@ -138,17 +138,17 @@ a:hover {
 }
 
 .other-links{
-    color: #387aa3;
+    color: #2b91d1;
     text-decoration: underline;
 }
 
 .other-links:hover {
-    color: #2c5f70;
+    color: #2a768f;
 }
 
-.other-links:visited {
+/* .other-links:visited {
     color: #2c5f70;
-}
+} */
 
 .eeriewoods{
     background: #252525;
@@ -430,6 +430,32 @@ textarea{
 
 .project-text-small p{
     line-height:1.5;
+}
+
+/* ===== For embedded Youtube videos ===== */
+
+.project-video{
+    max-width:1100px;
+    margin:0 auto;
+    padding:10px 30px 30px 30px;
+    background:#252525;
+    text-align:center;
+}
+
+.video-container{
+    position:relative;
+    width:100%;
+    margin-top:20px;
+    padding-bottom:56.25%; /* 16:9 ratio */
+}
+
+.video-container iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius:10px;
 }
 
 @media screen and (max-width: 768px) {
