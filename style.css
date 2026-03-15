@@ -354,10 +354,14 @@ textarea{
 
 .project-media{
     flex:1;
+    display:flex;
+    justify-content:center;
 }
 
 .project-media img{
-    width:100%;
+    max-height:450px;
+    max-width:100%;
+    width:auto;
     border-radius:10px;
 }
 
@@ -374,6 +378,12 @@ textarea{
 .project-title-altitude{
     font-size:40px;
     color:#00cc33;
+    margin-bottom:20px;
+}
+
+.project-title-cardclash{
+    font-size:40px;
+    color:#cccccc;
     margin-bottom:20px;
 }
 
