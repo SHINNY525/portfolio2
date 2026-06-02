@@ -405,6 +405,12 @@ textarea{
     margin-bottom:20px;
 }
 
+.project-title-blacksiteruins{
+    font-size:40px;
+    color:#ead1ab;
+    margin-bottom:20px;
+}
+
 /* ===== Project Responsibilities Section ===== */
 
 .project-responsibilities{
@@ -433,6 +439,7 @@ textarea{
     background:#252525;
 
     display:flex;
+    justify-content:center;
     align-items:center;
     gap:2em;
 }
